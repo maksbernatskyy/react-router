@@ -13,7 +13,7 @@ export default function Header() {
                     <img src={logo} alt="Logo" />
                 </div>
                 <div>
-                    <nav class="navbar navbar-expand-lg">
+                    <nav className="navbar navbar-expand-lg">
                         <Link className="text-decoration-none text-secondary me-3 fw-bold" to="/">Home Page</Link>
                         <NavLink className="text-decoration-none text-secondary me-3 fw-bold" to="/ChiSiamo">Chi Siamo</NavLink>
                         <NavLink className="text-decoration-none text-secondary fw-bold" to="/Products">Prodotti</NavLink>
