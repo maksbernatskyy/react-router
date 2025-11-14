@@ -4,7 +4,7 @@ export default function ChiSiamo() {
         <>
         <main>
             <div className="container">
-                <h1>Ciao</h1>
+                <h1>Chi Siamo</h1>
             </div>
         </main>
         </>

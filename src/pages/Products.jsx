@@ -31,7 +31,7 @@ export default function Products() {
                                     </div>
                                     <div className="card-body">
                                         <span className="text-uppercase fw-bold d-block">{thisTodo.title}</span>
-                                        <span className="d-block"><strong>Price:</strong> "{thisTodo.price}"</span>
+                                        <span className="d-block"><strong>Price:</strong> "{thisTodo.price} €"</span>
                                         <span className="d-block"><strong>Category:</strong> "{thisTodo.category}"</span>
                                     </div>
                                 </div>
