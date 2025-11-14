@@ -8,7 +8,6 @@ export default function HomePage() {
                     <h1 className="display-1 text-uppercase text-primary fw-bold">
                         benvenuto
                     </h1>
-
                 </div>
             </div>
         </main>
