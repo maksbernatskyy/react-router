@@ -1,2 +1,8 @@
 @import url('bootstrap');
 @import url('bootstrap-icons');
+
+header img{
+  width: 80px;
+  height: 40px;
+
+}
