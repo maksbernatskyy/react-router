@@ -1,5 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
+// Default layout
+import DefaultLayout from "./components/DefaultLayout"
+
+// All pages
 import HomePage from "./pages/HomePage"
 import ChiSiamo from "./pages/ChiSiamo"
 import Products from "./pages/Products"
@@ -11,9 +15,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/ChiSiamo" element={<ChiSiamo />} />
-          <Route path="/Products" element={<Products />} />
+          <Route element={<DefaultLayout />}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/ChiSiamo" element={<ChiSiamo />} />
+            <Route path="/Products" element={<Products />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
