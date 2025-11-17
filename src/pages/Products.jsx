@@ -34,7 +34,7 @@ export default function Products() {
                                         <span className="text-uppercase fw-bold d-block">{thisTodo.title}</span>
                                         <span className="d-block"><strong>Price:</strong> "{thisTodo.price} €"</span>
                                         <span className="d-block"><strong>Category:</strong> "{thisTodo.category}"</span>
-                                        <Link to={`/Products/${thisTodo.id}`}>Go to Card</Link>
+                                        <Link className="text-decoration-none btn btn-dark mt-2" to={`/Products/${thisTodo.id}`}>Go to Card</Link>
                                     </div>
                                 </div>
                             </div>
