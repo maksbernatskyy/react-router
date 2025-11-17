@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
+import { Link } from "react-router-dom"
 
 
 export default function Products() {
@@ -33,6 +34,7 @@ export default function Products() {
                                         <span className="text-uppercase fw-bold d-block">{thisTodo.title}</span>
                                         <span className="d-block"><strong>Price:</strong> "{thisTodo.price} €"</span>
                                         <span className="d-block"><strong>Category:</strong> "{thisTodo.category}"</span>
+                                        <Link to={`/Products/${thisTodo.id}`}>Go to Card</Link>
                                     </div>
                                 </div>
                             </div>
