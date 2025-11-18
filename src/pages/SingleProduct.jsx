@@ -21,13 +21,15 @@ export default function SingleProduct() {
 
     return (
         <>
-        <div className="container">
-            <div className="card">
+        <div className="container mt-4">
+            <div id="singleCard" className="card p-3">
                 <div>
                     <img className="card-img-top" src={card.image} alt="" />
                 </div>
                 <div className="card-body">
-                    <span>{card.title}</span>
+                    <span className="text-uppercase fw-bold d-block">{card.title}</span>
+                    <span className="d-block"><strong>Price:</strong> "{card.price} €"</span>
+                    <span className="d-block"><strong>Category:</strong> "{card.category}"</span>
                 </div>
             </div>
         </div>
