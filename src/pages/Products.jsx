@@ -32,7 +32,7 @@ export default function Products() {
     return (
         <>
         <main>
-            <div className="container">
+            <div className="container my-5">
 
                 {/* Loading */}
                 {
